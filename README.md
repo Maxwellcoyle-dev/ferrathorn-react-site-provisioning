@@ -1,6 +1,6 @@
 # React Site provisioning
 
-This project is meant to be reused accross different crm customers. Upon successful purchase, this workflow will run which builds the react app and then uploads the ubild files to to the customer s3 bucket. 
+This project is meant to be reused accross different crm customers. Upon successful purchase, a workflow in this project runs, building the react app and then uploading the ubild files to to the customer s3 bucket. 
 
 This workflow will be triggered by a lambda function which listens for a successful step 1 (terraform creates initial aws resources). 
 
